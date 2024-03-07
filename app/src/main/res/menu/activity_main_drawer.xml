@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/profileuser"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/employee"
+            android:title="service provider" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/cleaningcart"
+            android:title="service cart" />
+        <item
+            android:id="@+id/nav_slideshows"
+            android:icon="@drawable/checklist"
+            android:title="Request Status" />
+        <item
+            android:id="@+id/nav_slideshowes"
+            android:icon="@drawable/historybook"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_slideshowz"
+            android:icon="@drawable/badreview"
+            android:title="Complaint" />
+    </group>
+</menu>
